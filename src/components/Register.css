@@ -1,0 +1,90 @@
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .menu img {
+    height: 50px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu ul li {
+    display: inline;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .menu ul li a:hover {
+    color: #007bff;
+  }
+  
+  .register-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .register-form {
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  .register-form td {
+    padding: 10px;
+  }
+  
+  .register-form input[type='text'],
+  .register-form input[type='email'],
+  .register-form input[type='password'] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  @media screen and (max-width: 768px) {
+    .register-form {
+      width: 90%;
+    }
+    
+  }
